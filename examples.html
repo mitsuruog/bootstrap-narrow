@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{title}}</title>
+    <title>Examples · Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -26,18 +26,6 @@
                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    {{#production}}
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-146052-10']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    {{/production}}
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -55,26 +43,26 @@
           <a class="brand" href="./index.html">Bootstrap</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="{{index}}">
-                <a href="./index.html">{{_i}}Home{{/i}}</a>
+              <li class="">
+                <a href="./index.html">Home</a>
               </li>
-              <li class="{{getting-started}}">
-                <a href="./getting-started.html">{{_i}}Get started{{/i}}</a>
+              <li class="">
+                <a href="./getting-started.html">Get started</a>
               </li>
-              <li class="{{scaffolding}}">
-                <a href="./scaffolding.html">{{_i}}Scaffolding{{/i}}</a>
+              <li class="">
+                <a href="./scaffolding.html">Scaffolding</a>
               </li>
-              <li class="{{base-css}}">
-                <a href="./base-css.html">{{_i}}Base CSS{{/i}}</a>
+              <li class="">
+                <a href="./base-css.html">Base CSS</a>
               </li>
-              <li class="{{components}}">
-                <a href="./components.html">{{_i}}Components{{/i}}</a>
+              <li class="">
+                <a href="./components.html">Components</a>
               </li>
-              <li class="{{javascript}}">
-                <a href="./javascript.html">{{_i}}JavaScript{{/i}}</a>
+              <li class="">
+                <a href="./javascript.html">JavaScript</a>
               </li>
-              <li class="{{customize}}">
-                <a href="./customize.html">{{_i}}Customize{{/i}}</a>
+              <li class="">
+                <a href="./customize.html">Customize</a>
               </li>
             </ul>
           </div>
@@ -82,7 +70,37 @@
       </div>
     </div>
 
-{{>body}}
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <h1>Bootstrap examples</h1>
+  <p class="lead">We've included a few basic examples as starting points for your work with Bootstrap. We encourage folks to iterate on these examples and not simply use them as an end result.</p>
+</header>
+
+
+<ul class="thumbnails bootstrap-examples">
+  <li class="span4">
+    <a class="thumbnail" href="examples/hero.html">
+      <img src="assets/img/examples/bootstrap-example-hero.jpg" alt="">
+    </a>
+    <h3>Basic marketing site</h3>
+    <p>Featuring a hero unit for a primary message and three supporting elements.</p>
+  </li>
+  <li class="span4">
+    <a class="thumbnail" href="examples/fluid.html">
+      <img src="assets/img/examples/bootstrap-example-fluid.jpg" alt="">
+    </a>
+    <h3>Fluid layout</h3>
+    <p>Uses our new responsive, fluid grid system to create a seamless liquid layout.</p>
+  </li>
+  <li class="span4">
+    <a class="thumbnail" href="examples/starter-template.html">
+      <img src="assets/img/examples/bootstrap-example-starter.jpg" alt="">
+    </a>
+    <h3>Starter template</h3>
+    <p>A barebones HTML document with all the Bootstrap CSS and javascript included.</p>
+  </li>
+</ul>
 
 
 
@@ -90,15 +108,15 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p>{{_i}}Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.{{/i}}</p>
-        <p>{{_i}}Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.{{/i}}</p>
-        <p>{{_i}}<a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.{{/i}}</p>
+        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">{{_i}}Blog{{/i}}</a></li>
+          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">{{_i}}Issues{{/i}}</a></li>
+          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/wiki">{{_i}}Roadmap and changelog{{/i}}</a></li>
+          <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap and changelog</a></li>
         </ul>
       </div>
     </footer>
@@ -130,23 +148,6 @@
     <script src="assets/js/application.js"></script>
 
 
-    {{#production}}
-    <!-- Analytics
-    ================================================== -->
-    <script>
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
-    {{/production}}
 
   </body>
 </html>
