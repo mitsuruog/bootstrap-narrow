@@ -1,0 +1,62 @@
+//
+// Navbars (Redux)
+// --------------------------------------------------
+
+
+// COMMON STYLES
+// -------------
+
+// Inner for background effects
+// Gradient is applied to its own element because overflow visible is not honored by IE when filter is present
+.navbar-inner {
+  min-height: 28px;
+  padding-left:  10px;
+  padding-right: 10px;
+}
+
+// Brand: website or project name
+// -------------------------
+.navbar .brand {
+  padding: 4px 20px 4px;
+}
+
+// Dividers in navbar
+// -------------------------
+.navbar .divider-vertical {
+  height: 28px;
+}
+
+
+// NAVIGATION
+// ----------
+
+// Links
+.navbar .nav > li > a {
+  // Vertically center the text given @navbarHeight
+  padding: 4px 15px 4px;
+}
+
+
+// Navbar search
+// -------------------------
+.navbar-search {
+  .search-query {
+    padding: 0px 7px;
+  }
+}
+
+
+// Inverted navbar
+// -------------------------
+.navbar-inverse {
+// Navbar search
+  .navbar-search {
+    .search-query {
+      // Focus states (we use .focused since IE7-8 and down doesn't support :focus)
+      &:focus,
+      &.focused {
+        padding: 0px 4px;
+      }
+    }
+  }
+}
