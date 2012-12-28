@@ -7,6 +7,13 @@
  *
  * Bootstrap is designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+code {
+  padding: 0px 4px;
+}
+pre {
+  padding: 3.5px;
+  margin: 0;
+}
 label {
   margin-bottom: 0px;
 }
