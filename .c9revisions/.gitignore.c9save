@@ -1,3 +1,0 @@
-{"ts":1356790767708,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1356790798589,"patch":[[{"diffs":[[1,"# Folders to ignore\r\nnode_modules"]],"start1":0,"start2":0,"length1":0,"length2":33}]],"length":33,"saved":false}
-{"contributors":[],"silentsave":false,"ts":1356790845790,"patch":[[{"diffs":[[0,"_modules"],[1,"\r\n\r\n# Cloud9 to ignore\r\n.c9revisions/"]],"start1":25,"start2":25,"length1":8,"length2":45}]],"length":70,"saved":false}
