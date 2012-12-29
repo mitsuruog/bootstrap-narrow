@@ -1,0 +1,2 @@
+{"ts":1356792916313,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1356793331062,"patch":[[{"diffs":[[1,"//\r\n// Modals\r\n// --------------------------------------------------\r\n\r\n\r\n// Base modal\r\n.modal-header {\r\n  padding: 3px 15px;\r\n}\r\n\r\n// Body (where all modal content resides)\r\n.modal-body {\r\n  padding: 3px 15px 3px;\r\n}\r\n\r\n// Footer (for actions)\r\n.modal-footer {\r\n  padding: 6px 15px 6px;\r\n}"]],"start1":0,"start2":0,"length1":0,"length2":291}]],"length":291,"saved":false}

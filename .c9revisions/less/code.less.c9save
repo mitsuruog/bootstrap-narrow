@@ -1,0 +1,1 @@
+{"ts":1356789111060,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"//\n// Code (inline and blocK)\n// --------------------------------------------------\n\n\n// Inline code\ncode {\n  padding: 0px 4px;\n}\n\n// Blocks of code\npre {\n  padding: 3.5px;\n  margin: 0;\n}"]],"start1":0,"start2":0,"length1":0,"length2":187}]],"length":187}
