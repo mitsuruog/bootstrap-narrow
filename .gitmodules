@@ -1,1 +1,4 @@
 
+[submodule "bootstrap-narrow"]
+	path = bootstrap-narrow
+	url = git://github.com/mitsuruog/bootstrap-narrow.git
