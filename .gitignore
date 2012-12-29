@@ -1,0 +1,5 @@
+# Folders to ignore
+node_modules
+
+# Cloud9 to ignore
+.c9revisions/
