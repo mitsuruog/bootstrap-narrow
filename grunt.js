@@ -28,6 +28,9 @@ grunt.loadNpmTasks('grunt-less');
 grunt.registerTask('default', 'watch');
 
 // less
-grunt.registerTask('less', 'less csso');
+grunt.registerTask('less', 'less');
+
+// csso
+grunt.registerTask('csso', 'csso');
 
 };
