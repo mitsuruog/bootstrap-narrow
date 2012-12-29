@@ -98,6 +98,16 @@ input[type="file"] {
 .navbar .divider-vertical {
   height: 28px;
 }
+.navbar .btn,
+.navbar .btn-group {
+  margin-top: 3px;
+}
+.navbar-form input,
+.navbar-form select,
+.navbar-form .radio,
+.navbar-form .checkbox {
+  margin-top: 3px;
+}
 .navbar .nav > li > a {
   padding: 4px 15px 4px;
 }
