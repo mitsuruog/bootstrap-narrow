@@ -7,12 +7,34 @@
  *
  * Bootstrap is designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+.breadcrumb {
+  padding: 2px 7px;
+}
+.btn {
+  padding: 0px 12px;
+}
+.btn-large {
+  padding: 1px 19px;
+}
+.btn-large [class^="icon-"],
+.btn-large [class*=" icon-"] {
+  margin-top: 2px;
+}
 code {
   padding: 0px 4px;
 }
 pre {
   padding: 3.5px;
   margin: 0;
+}
+.dropdown-menu {
+  padding: 2px 0;
+}
+.dropdown-menu li > a {
+  padding: 0px 10px;
+}
+.dropdown-menu .divider {
+  margin: 4px 1px 2px 1px;
 }
 label {
   margin-bottom: 0px;
@@ -53,31 +75,41 @@ input[type="file"] {
 .control-group {
   margin-bottom: 0px;
 }
-.table {
-  margin-bottom: 7px;
+.hero-unit {
+  padding: 30px;
 }
-.table th,
-.table td {
-  padding: 1px;
+.modal-header {
+  padding: 3px 15px;
 }
-.btn {
-  padding: 0px 12px;
+.modal-body {
+  padding: 3px 15px 3px;
 }
-.btn-large {
-  padding: 1px 19px;
+.modal-footer {
+  padding: 6px 15px 6px;
 }
-.btn-large [class^="icon-"],
-.btn-large [class*=" icon-"] {
-  margin-top: 2px;
+.navbar-inner {
+  min-height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.dropdown-menu {
-  padding: 2px 0;
+.navbar .brand {
+  padding: 4px 20px 4px;
 }
-.dropdown-menu li > a {
-  padding: 0px 10px;
+.navbar .divider-vertical {
+  height: 28px;
 }
-.dropdown-menu .divider {
-  margin: 4px 1px 2px 1px;
+.navbar .nav > li > a {
+  padding: 4px 15px 4px;
+}
+.navbar-search {
+  margin-top: 3px;
+}
+.navbar-search .search-query {
+  padding: 0px 7px;
+}
+.navbar-inverse .navbar-search .search-query:focus,
+.navbar-inverse .navbar-search .search-query.focused {
+  padding: 0px 4px;
 }
 .nav {
   margin-bottom: 3px;
@@ -108,35 +140,27 @@ input[type="file"] {
   padding-top: 1px;
   padding-bottom: 3px;
 }
-.navbar-inner {
-  min-height: 28px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.navbar .brand {
-  padding: 4px 20px 4px;
-}
-.navbar .divider-vertical {
-  height: 28px;
-}
-.navbar .nav > li > a {
-  padding: 4px 15px 4px;
-}
-.navbar-search .search-query {
-  padding: 0px 7px;
-}
-.navbar-inverse .navbar-search .search-query:focus,
-.navbar-inverse .navbar-search .search-query.focused {
-  padding: 0px 4px;
-}
-.breadcrumb {
-  padding: 2px 7px;
+.pager li > a,
+.pager li > span {
+  padding: 0px 14px;
 }
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 7px 14px;
 }
-.pager li > a,
-.pager li > span {
-  padding: 0px 14px;
+.table {
+  margin-bottom: 7px;
+}
+.table th,
+.table td {
+  padding: 1px;
+}
+.well {
+  padding: 9px;
+}
+.well-large {
+  padding: 18px;
+}
+.well-small {
+  padding: 4.5px;
 }
