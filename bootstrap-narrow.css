@@ -11,7 +11,7 @@
   padding: 2px 7px;
 }
 .btn {
-  padding: 0px 12px;
+  padding: 0 12px;
 }
 .btn-large {
   padding: 1px 19px;
@@ -21,7 +21,7 @@
   margin-top: 2px;
 }
 code {
-  padding: 0px 4px;
+  padding: 0 4px;
 }
 pre {
   padding: 3.5px;
@@ -31,13 +31,13 @@ pre {
   padding: 2px 0;
 }
 .dropdown-menu li > a {
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 .dropdown-menu .divider {
   margin: 4px 1px 2px 1px;
 }
 label {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 select,
 textarea,
@@ -56,8 +56,8 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  padding: 0px 7px;
-  margin-bottom: 0px;
+  padding: 0 7px;
+  margin-bottom: 0;
 }
 select,
 input[type="file"] {
@@ -65,15 +65,15 @@ input[type="file"] {
 }
 .input-append,
 .input-prepend {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .input-append .add-on,
 .input-prepend .add-on {
   height: 19px;
-  padding: 1px 5px 0px 5px;
+  padding: 1px 5px 0 5px;
 }
 .control-group {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .hero-unit {
   padding: 30px;
@@ -118,11 +118,11 @@ input[type="file"] {
   margin-top: 3px;
 }
 .navbar-search .search-query {
-  padding: 0px 7px;
+  padding: 0 7px;
 }
 .navbar-inverse .navbar-search .search-query:focus,
 .navbar-inverse .navbar-search .search-query.focused {
-  padding: 0px 4px;
+  padding: 0 4px;
 }
 .nav {
   margin-bottom: 3px;
@@ -155,7 +155,7 @@ input[type="file"] {
 }
 .pager li > a,
 .pager li > span {
-  padding: 0px 14px;
+  padding: 0 14px;
 }
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
