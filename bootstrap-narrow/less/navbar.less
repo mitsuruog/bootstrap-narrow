@@ -1,0 +1,87 @@
+//
+// Navbars (Redux)
+// --------------------------------------------------
+
+
+// COMMON STYLES
+// -------------
+
+// Inner for background effects
+// Gradient is applied to its own element because overflow visible is not honored by IE when filter is present
+.navbar-inner {
+  min-height: 28px;
+  padding-left:  10px;
+  padding-right: 10px;
+}
+
+// Brand: website or project name
+// -------------------------
+.navbar .brand {
+  padding: 4px 20px 4px;
+}
+
+// Dividers in navbar
+// -------------------------
+.navbar .divider-vertical {
+  height: 28px;
+}
+
+// Buttons in navbar
+// -------------------------
+.navbar .btn,
+.navbar .btn-group {
+  margin-top: 3px;
+}
+
+// Navbar forms
+// -------------------------
+.navbar-form {
+  input,
+  select,
+  .radio,
+  .checkbox {
+    margin-top: 3px;
+  }
+}
+
+// NAVIGATION
+// ----------
+
+// Links
+.navbar .nav > li > a {
+  // Vertically center the text given @navbarHeight
+  padding: 4px 15px 4px;
+}
+
+// Navbar button for toggling navbar items in responsive layouts
+// These definitions need to come after '.navbar .btn'
+.navbar .btn-navbar {
+  padding: 2px 10px 5px;
+}
+
+
+// Navbar search
+// -------------------------
+.navbar-search {
+  margin-top: 3px;
+  .search-query {
+    padding: 0 7px;
+  }
+}
+
+
+// Inverted navbar
+// -------------------------
+.navbar-inverse {
+// Navbar search
+  .navbar-search {
+    .search-query {
+      // Focus states (we use .focused since IE7-8 and down doesn't support :focus)
+      &:focus,
+      &.focused {
+        padding: 0 7px;
+        border: 1px solid #111;
+      }
+    }
+  }
+}
