@@ -1,0 +1,51 @@
+//
+// Navs
+// --------------------------------------------------
+
+
+// BASE CLASS
+// ----------
+
+.nav {
+  margin-bottom: 3px;
+}
+
+// Nav headers (for dropdowns and lists)
+.nav-header {
+  padding: 2px 7px;
+}
+// Space them out when they follow another list item (link)
+.nav li + .nav-header {
+  margin-top: 1px;
+}
+
+
+// NAV LIST
+// --------
+
+.nav-list {
+  padding-left: @naviListBasePaddingLeft;
+  padding-right: @naviListBasePaddingRight;
+}
+.nav-list > li > a,
+.nav-list .nav-header {
+  margin-left:  -@naviListBasePaddingLeft;
+  margin-right: -@naviListBasePaddingRight;
+}
+.nav-list > li > a {
+  padding: 1px 7px;
+}
+// Dividers (basically an hr) within the dropdown
+.nav-list .divider {
+  margin: 4px 1px 2px 1px;
+}
+
+
+// TABS AND PILLS
+// -------------
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+

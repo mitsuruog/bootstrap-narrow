@@ -4,18 +4,18 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 		csso: {
 			dist: {
-				src: './bootstrap-narrow/bootstrap-narrow.css',
-				dest: './bootstrap-narrow/bootstrap-narrow.min.css'
+				src : './lib/bootstrap-narrow.css',
+				dest: './lib/bootstrap-narrow.min.css'
 			}
 		},
 		watch: {
-			files: ['./bootstrap-narrow/less/*.less'],
+			files: ['./lib/less/*.less'],
 			tasks: ['less', 'csso']
 		},
 		less: {
 			production: {
 				files: {
-					"./bootstrap-narrow/bootstrap-narrow.css": "./bootstrap-narrow/less/bootstrap-narrow.less"
+					"./lib/bootstrap-narrow.css": "./lib/less/bootstrap-narrow.less"
 				}
 			}
 		}
@@ -23,7 +23,8 @@ module.exports = function (grunt) {
 
 	// Load npm tasks
 	grunt.loadNpmTasks('grunt-csso');
-	grunt.loadNpmTasks('grunt-contrib');
+	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	// Default task.
 	grunt.registerTask('default', 'watch');
